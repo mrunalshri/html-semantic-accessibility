@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-size: 16px;
+}
+textarea {
+  resize: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.right {
+  float: right;
+}
+nav li {
+  display: inline;
+}
+.article_image {
+  width: 800px;
+  height: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+}
+footer li {
+  display: inline;
+}

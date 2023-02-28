@@ -1,1 +1,0 @@
-# html-sementic-newspaper-article
