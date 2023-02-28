@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Newspaper Article</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">Tech Returner News</a>
+      <section class="right">
+        <label for="site-search">Search...</label>
+        <input
+          type="search"
+          id="site-search"
+          name="search"
+          aria-label="Search through site content"
+        />
+        <button>Search</button>
+      </section>
+    </header>
+    <nav>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Opinion</a></li>
+      <li><a href="#">Tech</a></li>
+      <li><a href="#">Sport</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Lifestyle</a></li>
+      <li><a href="#">Jobs</a></li>
+    </nav>
+    <p><label for="accessebility_options">Preferences</label></p>
+
+    <form id="accessibility">
+      <textarea
+        id="accessebility_options"
+        name="accessebility_options"
+        rows="5"
+        cols="132"
+        readonly="true"
+        class="newline"
+      >
+We aim to make this site accessible to a wide audience and to ensure a great experience for all users by conforming to World Wide Web Consortium accessibility guidelines (W3C's WCAG)
+However, if you are having trouble reading this website you can change the way it looks or disable some of its functionalities. (Checkbox) Allow flashing elements Untick this to disable flashing and moving elements
+    </textarea
+      >
+      <input
+        type="checkbox"
+        id="DisableContent"
+        name="DisableContent"
+        form="accessibility"
+      />
+      <label for="DisableContent" for="DisableContent"
+        >Untick this to disable flashing and moving elements</label
+      >
+    </form>
+    <h1>Accessibility Features: Easy Wins</h1>
+    <h2>Handy tips on how to create accessible websites for everyone</h2>
+    <address>
+      <a href="jimmy.eggs@hotmail.com">Jim Eggs</a>
+      <p>04.08.21</p>
+      <img
+        src="./public/accessibility_image.jpeg"
+        alt="accessibility image"
+        class="article_image"
+      />
+    </address>
+  </body>
+</html>
