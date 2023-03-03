@@ -66,13 +66,11 @@ body {
   line-height: 1.2em;
   word-spacing: 0.2em;
 }
-
 .article_container {
   margin-top: 5px;
   display: flex;
   flex-wrap: nowrap;
 }
-
 .article_items {
   flex: 1 1 0px;
   padding: 1px 7px 1px 7px;
